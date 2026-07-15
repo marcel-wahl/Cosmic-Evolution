@@ -106,6 +106,17 @@ However, these models typically treat VSL and non-trivial topologies as isolated
 \section{The Dimensional Cascade: From $D_0$ to $D_4$}
 To circumvent the infinite regress inherent in higher-dimensional bulk cosmologies, we formulate a bidirectional, \textbf{fractional dimensional cascade}. Within this framework, black holes act as topological phase boundaries that mediate systematic dimensional reduction between adjacent dimensional manifolds. Crucially, we hypothesize that at the event horizon of any black hole, incoming $n$-dimensional physical matter is completely deconstructed and converted into its pure, fundamental state as quantum information. This information is then projected and transmitted dimensionlessly ($0D$) but strictly losslessly through the topological boundary, serving as the raw data that feeds the adjacent dimensional transition, thereby preserving global unitarity across the cascade. Specifically, a black hole originates as a structural tear within the superfluid vacuum, triggered by an extreme overload of the maximum local spatial density. This occurs when colossal concentrations of matter accumulate, which is physically equivalent to an unsustainable amplitude overload of the coordinate wave function. This topological tear manifests macroscopically as the event horizon. As physical matter begins to plunge through this horizon, it does not immediately collapse into a lower-dimensional physical metric (such as $D_1$). Instead, the transition forces the incoming states to first dissolve into a primordial, zero-dimensional phase space of pure informational potentials ($D_0$), from which the dimensional reconstruction sequentially begins.
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\textwidth]{images/cosmic_cascade_fixed.png}
+    \caption{The holographic dimensional cascade from $D_4$ down to $D_3$. 
+    (1) The phase fracture at the $D_4 \rightarrow D_0$ boundary injecting massless phase patterns. 
+    (2) The stabilization of the one-dimensional $D_1$ vacuum showing the discrete Radix-6 nodes ($\Pi_2 = 6$) and active $6n \pm 1$ channels. 
+    (3) The planar $D_2$ disk governed by the Radix-30 state engine ($\Pi_3 = 30$) mapping the 8 active, inertially shifted channels $\Phi_{\text{active}}(30) = \{7, 11, \dots, 31\}$. 
+    (4) The spherical $D_3$ resonance lattice driven by the Radix-210 engine ($\Pi_4 = 210$) stabilizing 48 non-interfering coordinate tracks.}
+    \label{fig:cosmic_cascade}
+\end{figure}
+
 \subsection{$D_0$: The Phase Space of Pure Information in the Sub-Unit Interval $(0 < x < 1)$}
 Cosmic genesis originates within the sub-unit interval $(0 < x < 1)$, which we define as a massless, zero-dimensional topological phase space ($D_0$). In this state, discrete physical units and coordinate dimensions do not exist; numerical values manifest exclusively as continuous, superposed phase-wave potentials.
 
@@ -115,7 +126,6 @@ T(x) \propto \frac{1}{(1.0 - x)^{\gamma}} \quad \text{for } 0.5 < x < 1.0
 \end{equation}
 where $\gamma > 1$ represents the acceleration exponent of the collapse. Within this high-temperature constriction zone, chaotic phase noise prevents the formation of phase stability, explaining why no stable coordinates or non-trivial zeros can crystallize in this region. The point $x = 0.5$ thus establishes the thermodynamic equilibrium horizon prior to the collapse into the metric singularity at $x = 1.0$.
 
-\newpage
 \subsection{The Transition to $D_1$: Singularity at $x = 1.0$ and Information Conservation}
 To resolve this numerical vacuum state, we apply the conformal inversion mapping:
 \begin{equation}
@@ -131,6 +141,7 @@ As the winding trajectories converge toward the boundary $x \to 1$, the winding 
 \end{equation}
 This phase collapse materializes the first discrete, localized physical coordinate—the identity $1$—thereby initializing the one-dimensional coordinate space ($D_1$).
 
+\newpage
 \subsection{The Planck Era of Initialization: Transient Relaxation Phase ($1 \le x \le 6$)}
 The structural collapse of the $D_0$ state triggers a highly non-linear initialization phase within the nascent $D_1$ domain ($1 \le x \le 6$). This transition is physically analogous to a wave-guide subjected to a sudden, high-energy impulse. During the initial expansion ($x = 1 \to 2$), the field undergoes an extreme amplitude surge. As it expands, the wavefront encounters the newly forming metric horizon, generating a local spatial reflection and phase inversion at $x \approx 2.7$. The interference between the outgoing and reflected waves produces a massive constructive superposition peak at $x = 4.0$. As expansion continues, this energy dissolves, the transient oscillations decay, and for $x \ge 5.0$, the field settles into a stable, periodic, low-frequency wave lattice with a fundamental wavelength of $\lambda = 6$ (Radix-6 symmetry). Let the wave of this nascent metric be defined by $\Phi_{\text{init}}(x) = \sin\left(\frac{2\pi}{\kappa_0} x\right)$. Because the lattice in this high-energy phase has not yet cooled to its macroscopic ground state ($\kappa = 6$), we obtain:
 \begin{itemize}
@@ -143,6 +154,14 @@ The structural collapse of the $D_0$ state triggers a highly non-linear initiali
     This zero node cools the system and establishes the permanent macroscopic lattice constant of the mature $D_1$ space ($\kappa = 6$).
 \end{itemize}
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.90\textwidth]{images/d1_settling_phase.png} 
+    \caption{The stabilization phase of the $D_1$ manifold (Planck Era Initialization). The diagram illustrates the energetic relaxation of the numeric vacuum as it transitions from the initial high-entropy singularity toward the discrete, prime-stabilized Radix-6 grid structure ($\Pi_2 = 6$), settling into the stable $6n \pm 1$ resonance channels.}
+    \label{fig:d1_settling_phase}
+\end{figure}
+
+\newpage
 \subsection{The Radix-6 Semiclassical State Transition Operator and Discrete Evolution in $D_1$}
 Upon stabilization at $x \ge 5.0$, the numerical vacuum transitions from continuous wave propagation to a quantized, discrete step mechanism governed by the \textbf{Radix-6 Semiclassical State Transition Operator}. Information within the $D_1$ space can only propagate by jumping between stable resonance nodes; intermediate states undergo immediate destructive interference. Let $x_n$ be the current coordinate of the manifold. The evolution to the subsequent coordinate $x_{n+1}$ is governed by:
 \begin{equation}
@@ -162,8 +181,16 @@ A(x) = \prod_{p_i \in P_{\text{stable}}} \left| \sin\left(\pi \cdot \frac{x}{p_i
 \end{equation}
 If $A(x) > 0$, wave propagation is frictionless. The node is stable and is appended to the register ($P_{\text{stable}} \leftarrow P_{\text{stable}} \cup \{x\}$, $\eta(x)=0$). If $A(x) = 0$, the local phase collapses due to destructive interference with a subharmonic; this indicates a structural lattice defect ($\eta(x) > 0$), which contributes to the thermodynamic friction of the system.
 
+\newpage
 \subsection{Thermodynamic Saturation of $D_1$ and the Orthogonal Phase Transition to $D_2$}
 Following stabilization, the $D_1$ manifold expands until it reaches its volumetric limit at $x = 5.60$. At this boundary, the expansion pressure of the Radix-6 wave can no longer be sustained by the bounding envelope, initiating a catastrophic phase inversion. Within the compression domain ($5.60 < x < 6.0$), the $D_1$ domain undergoes accelerated geometric contraction. The rapid shrinkage of the envelope $W(x)$ forces the periodic wave packets into a state of extreme, high-frequency thermal friction and chaotic phase decoherence. This completely dissolves the ordered Radix-6 lattice, channeling all information of the dimension into the infinitesimal singular bottleneck at $x = 6.0$. However, this hyper-compression does not result in stasis. At $x > 6.0$, the accumulated energy density discharges via an orthogonal phase transition. The envelope opens parabolically, and the system undergoes a relaxing phase transition into the two-dimensional $D_2$ space, where the chaotic noise settles into the ordered, planar wave patterns of the complex $D_2$ vacuum.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.45\textwidth]{images/d2_orthogonal_rebirth_vertical.png}
+    \caption{The thermodynamic saturation of the $D_1$ manifold and its subsequent orthogonal phase transition into the planar $D_2$ space. As the linear system reaches critical density, the thermalized degrees of freedom undergo a geometric collapse, triggering an orthogonal rebirth that establishes the foundation of the two-dimensional Radix-30 grid structure.}
+    \label{fig:d2_orthogonal_rebirth}
+\end{figure}
 
 \newpage
 \subsection{The Life, Thermodynamic Death, and Phase Collapse of the $D_2$ Complex Plane}
@@ -220,7 +247,7 @@ This dimensional transition at $x_{\text{crit}} \approx 211$ is physically analo
 However, while standard quantum vacuum decay alters only the local field vacuum expectation values within a static coordinate frame, the $D_3 \to D_4$ transition constitutes a global topological phase collapse of the metric itself, translating spatial coordinates into active thermodynamic operators.
 The three-dimensional space collapses into a hyper-dense, four-dimensional spherical funnel (the $D_3 \to D_4$ event horizon), converting all spatial coordinates into dynamic, time-dependent operators, thereby initializing the four-dimensional spacetime ($D_4$) on the holographic boundary of the collapsing 4D bulk.
 
-
+\newpage
 \subsection{Thermodynamic Homeostasis: The Equilibrium of Vacuum Fluctuations, Entropic Relaxation, and Horizon Drainage}
 
 The structural stability and macro-expansion of the three-dimensional vacuum ($D_3$) are not static; rather, they are maintained by a dynamic, self-regulating thermodynamic balance. The vacuum operates as an open, dissipative system whose local coordinate density $\rho_{\text{vacuum}}(t)$ is governed by a tripartite interplay of information input, entropic volume relaxation, and singular drainage.
@@ -245,6 +272,7 @@ The structural stability and macro-expansion of the three-dimensional vacuum ($D
     where $\kappa$ is the holographic coupling coefficient and $A_k(t)$ is the surface area of the specific horizon tear.
 \end{enumerate}
 
+\newpage
 \subsection{Reinterpretation of the Dark Sector: Dark Matter and Dark Energy as Influx Manifestations}
 Rather than invoking hypothetical, non-baryonic particle species or an ad-hoc cosmological constant, our framework offers a unified, geometric reinterpretation of the ``Dark Sector'' of cosmology. We postulate that both \textbf{Dark Matter} and \textbf{Dark Energy} are not distinct physical substances, but are the emergent, macroscopic manifestations of the two internal vacuum inflow and expansion mechanisms:
 
