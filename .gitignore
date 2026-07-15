@@ -1,0 +1,67 @@
+# ==========================================
+# LATEX AUXILIARY FILES (Core & Packages)
+# ==========================================
+*.aux
+*.log
+*.toc
+*.out
+*.lof
+*.lot
+*.bbl
+*.blg
+*.bcprg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.pdfsync
+*.alg
+*.acr
+*.acn
+*.glg
+*.glo
+*.gls
+*.ist
+*.bcf
+*.run.xml
+*.idx
+*.ilg
+*.ind
+*.vrb
+*.snm
+*.nav
+
+# ==========================================
+# EDITOR & SYSTEM SPECIFIC
+# ==========================================
+# TeXstudio & TeXmaker cache files
+*.bak
+*.unsub
+.texstudio/
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ==========================================
+# PYTHON ENVIRONMENT & CACHE (For your src/ files)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# ==========================================
+# EXCLUSIONS / SPECIAL RULES
+# ==========================================
+# If you want to keep final PDFs inside a specific "releases" folder, 
+# uncomment the next line to ignore all other PDFs in the source folder:
+# *.pdf
