@@ -1,3 +1,7 @@
+### Zitieren
+Wenn du dieses Projekt in deiner Arbeit verwendest, zitiere es bitte über Zenodo:
+**DOI:** [10.5281/zenodo.21378672](https://doi.org/10.5281/zenodo.21378672)
+
 # Superfluid Vacuum Cosmology: The Dimensional Cascade Framework
 
 This repository contains the LaTeX source code, mathematical derivations, and documentation for a novel, singularity-free cosmological framework that resolves the **Hubble Tension** and reinterprets the **Dark Sector** without invoking dark particles or ad-hoc cosmological constants.
