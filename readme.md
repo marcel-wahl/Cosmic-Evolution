@@ -2,7 +2,7 @@
 
 If you use this project in your work, please cite it via Zenodo:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.21378672)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21378672.svg)](https://doi.org/10.5281/zenodo.21378672)
 
 # Superfluid Vacuum Cosmology: The Dimensional Cascade Framework
 
