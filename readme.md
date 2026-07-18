@@ -1,6 +1,8 @@
-### Zitieren
-Wenn du dieses Projekt in deiner Arbeit verwendest, zitiere es bitte über Zenodo:
-**DOI:** [10.5281/zenodo.21378672](https://doi.org/10.5281/zenodo.21378672)
+### Citation
+
+If you use this project in your work, please cite it via Zenodo:
+
+[![DOI](https://doi.org/10.5281/zenodo.21378672)](https://doi.org/10.5281/zenodo.21378672)
 
 # Superfluid Vacuum Cosmology: The Dimensional Cascade Framework
 
